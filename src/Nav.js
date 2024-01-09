@@ -1,16 +1,18 @@
 import React from 'react'
 import './Nav.css'
+import kheer from './Assets/kheer.jpg'
 
 function Nav() {
   return (
-    <div className='container'>
-      <li><a>Home</a></li>
-      <li><a>About</a></li>
-      <li><a>Menu</a></li>
-      <li><a>Reservation</a></li>
-      <li><a>Order Online</a></li>
-      <li><a>Login</a></li>
-    </div>
+    <ul className='container'>
+      <img src={kheer} alt='food picture ' width="150px" height="50px"/>
+      <a>Home</a>
+      <a>About</a>
+      <a>Menu</a>
+      <a>Reservation</a>
+      <a>Order Online</a>
+      <a>Login</a>
+    </ul>
   )
 }
 

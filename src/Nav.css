@@ -1,8 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
     display:flex;
     background-color: white;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    margin-left: 500px;
 }
-.a{
+.container a {
+    display: inline-block;
     color: red;
     text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+.container a:hover{
+    background-color: rgb(179, 169, 169);
+    color: blue;
+}
+.container img{
+    margin-top: 10px;
 }
