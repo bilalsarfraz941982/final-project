@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-     <><Headers /><Nav /><Main /><Footer /></>
+     <><Nav /><Headers/><Main /><Footer /></>
   );
 }
 
